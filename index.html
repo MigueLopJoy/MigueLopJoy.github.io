@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="Icon" href="./ASSETS/MEDIA/IMGs/logo1.png">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./ASSETS/CSS/styles.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  <!-- HEADER START-->
+  <header id="header" class="header position-absolute start-0 top-0 end-0">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <div class="navbar-brand-container">
+          <a href="./" class="navbard-brand">
+            <img src="./ASSETS/MEDIA/IMGs/logo1.png" height="60" alt="Logo">
+          </a>
+        </div>
+
+        <div class="navbar-toggler-container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+          </button>
+        </div>
+
+        <div id="navbarNav" class="navbar-collapse collapse">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link text-primary" aria-current="page">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./ASSETS/HTML/categories.html" class="nav-link">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a href="./ASSETS/HTML/about.html" class="nav-link">Conócenos</a>
+            </li>
+            <li class="nav-item">
+              <a href="./ASSETS/HTML/contact.html" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HEADER END -->
+
+
+  <!-- MAIN CONTENT BEGIN -->
+  <main id="main-content">
+
+    <!-- HERO BEGIN -->
+
+    <section class="page-section mb-5" id="hero">
+      <div class="container">
+        <div
+          class="hero-information d-flex flex-column align-items-center align-items-lg-start justify-content-end justify-content-lg-center pb-5 p-lg-0">
+          <h1 class="text-primary fw-bold">CADENA MAESTRA</h1>
+          <h5 class="text-center text-lg-start text-shadow">Calidad con garantías</h5>
+          <p class="text-center text-lg-start text-shadow mb-0">Rendimiento y Durabilidad.</p>
+          <p class="text-center text-lg-start text-shadow">Las Mejores Cadenas del Mercado</p>
+          <p class="text-center text-lg-start"><a class="btn btn-primary text-shadow"
+              href="./ASSETS/HTML/categories.html">Descúbrelas</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO END -->
+
+    <!-- MAIN CATEGORIES -->
+
+    <section class="page-section mb-5" id="categories-section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 text-center mb-4">
+            <h2 class="section-heading text-uppercase">Categorías destacadas</span></h2>
+          </div>
+        </div>
+
+        <div id="categories-carousel-lg" class="d-none d-lg-block carousel slide mb-6" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain5.png" alt="Categoría 4">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 3/8</h4>
+                        <p class="mb-0">
+                          Las cadenas 3/8, robustas y versátiles, son utilizadas frecuentemente en motosierras de
+                          gasolina, y se tratan de una elección popular entre usuarios que necesitan un equilibrio entre
+                          rendimiento y versatilidad.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria4.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain2.png" alt="Categoría 5">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 0.325</h4>
+                        <p class="mb-0">
+                          Las cadenas 0.325 son una opción intermedia entre las cadenas 1/4 y 3/8. Son adecuadas para
+                          una amplia variedad de tareas y motosierras, ofreciendo un equilibrio entre precisión y
+                          capacidad de corte.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chainsaw7.png" alt="Categoría 6">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Otros accesorios</h4>
+                        <p class="mb-0">
+                          En <span class="text-primary font-weight-bold">cadenaMestra.com</span>, además de las mejores
+                          cadenas, también ofrecemos una amplia gama de productos que te permitirán mantener tu
+                          motosierra en su mejor forma.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain4.png" alt="Categoría 1">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas Harvester</h4>
+                        <p class="mb-0">
+                          Las cadenas harvester están diseñadas para operaciones forestales a gran escala. Son
+                          especialmente robustas para que puedan resistir condiciones difíciles y los rigores del
+                          trabajo.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria1.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          Ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain1.png" alt="Categoría 2">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas Rip</h4>
+                        <p class="mb-0">
+                          Estas cadenas tienen dientes especialmente diseñados para facilitar el corte a lo largo de la
+                          veta de la madera. Son ideales para trabajos que requieren cortes largos y rectos, como la
+                          producción de tablones o vigas.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain3.png" alt="Categoría 3">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 1/4</h4>
+                        <p class="mb-0">
+                          Las cadenas 1/4 son especialmente útiles para trabajos que requieren cortes precisos y finos.
+                          Son comúnmente utilizadas en motosierras eléctricas y son ideales para cualquier trabajo que
+                          necesite precisión.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria3.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#categories-carousel-lg"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#categories-carousel-lg"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div id="categories-carousel-sm" class="d-none d-sm-block d-lg-none carousel slide mb-6"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain5.png" alt="Categoría 4">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 3/8</h4>
+                        <p class="mb-0">
+                          Las cadenas 3/8, más robustas y versátiles, se utilizan frecuentemente en motosierras de
+                          gasolina, y se tratan de una elección popular entre usuarios que necesitan un equilibrio entre
+                          rendimiento y versatilidad.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria4.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain2.png" alt="Categoría 5">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 0.325</h4>
+                        <p class="mb-0">
+                          Las cadenas 0.325 son una opción intermedia entre las cadenas 1/4 y 3/8. Son adecuadas para
+                          una amplia variedad de tareas y motosierras, ofreciendo un equilibrio entre precisión y
+                          capacidad de corte.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chainsaw7.png" alt="Categoría 6">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Otros accesorios</h4>
+                        <p class="mb-0">
+                          En <span class="text-primary font-weight-bold">cadenaMestra.com</span>, además de las mejores
+                          cadenas, también ofrecemos una amplia gama de productos que te permitirán mantener tu
+                          motosierra en su mejor forma.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain4.png" alt="Categoría 1">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas Harvester</h4>
+                        <p class="mb-0">
+                          Las cadenas harvester están diseñadas para operaciones forestales a gran escala. Son
+                          especialmente robustas para que puedan resistir condiciones difíciles y los rigores del
+                          trabajo.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria1.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          Ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain1.png" alt="Categoría 2">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas Rip</h4>
+                        <p class="mb-0">
+                          Estas cadenas tienen dientes especialmente diseñados para facilitar el corte a lo largo de la
+                          veta de la madera. Son ideales para trabajos que requieren cortes largos y rectos, como la
+                          producción de tablones o vigas.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain3.png" alt="Categoría 3">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 1/4</h4>
+                        <p class="mb-0">
+                          Las cadenas 1/4 son especialmente útiles para trabajos que requieren cortes precisos y finos.
+                          Son comúnmente utilizadas en motosierras eléctricas y son ideales para cualquier trabajo que
+                          necesite precisión.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria3.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#categories-carousel-sm"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#categories-carousel-sm"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div id="categories-carousel" class="d-sm-none carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain5.png" alt="Categoría 4">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 3/8</h4>
+                        <p class="mb-0">
+                          Las cadenas 3/8, robustas y versátiles, son utilizadas frecuentemente en motosierras de
+                          gasolina, y se tratan de una elección popular entre usuarios que necesitan un equilibrio entre
+                          rendimiento y versatilidad.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria4.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain2.png" alt="Categoría 5">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 0.325</h4>
+                        <p class="mb-0">
+                          Las cadenas 0.325 son una opción intermedia entre las cadenas 1/4 y 3/8. Son adecuadas para
+                          una amplia variedad de tareas y motosierras, ofreciendo un equilibrio entre precisión y
+                          capacidad de corte.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chainsaw7.png" alt="Categoría 6">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Otros accesorios</h4>
+                        <p class="mb-0">
+                          En <span class="text-primary font-weight-bold">cadenaMestra.com</span>, además de las mejores
+                          cadenas, también ofrecemos una amplia gama de productos que te permitirán mantener tu
+                          motosierra en su mejor forma.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain4.png" alt="Categoría 1">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas Harvester</h4>
+                        <p class="mb-0">
+                          Las cadenas harvester están diseñadas para operaciones forestales a gran escala. Son
+                          especialmente robustas para que puedan resistir condiciones difíciles y los rigores del
+                          trabajo.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria1.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          Ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain1.png" alt="Categoría 2">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas Rip</h4>
+                        <p class="mb-0">
+                          Estas cadenas tienen dientes especialmente diseñados para facilitar el corte a lo largo de la
+                          veta de la madera. Son ideales para trabajos que requieren cortes largos y rectos, como la
+                          producción de tablones o vigas.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="position-relative text-center">
+                      <img class="img-fluid ratio" src="./ASSETS/MEDIA/IMGs/chain3.png" alt="Categoría 3">
+                      <div class="p-3 slide-content">
+                        <div class="text-center mb-3">
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                          <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <h4 class="mb-3">Cadenas 1/4</h4>
+                        <p class="mb-0">
+                          Las cadenas 1/4 son especialmente útiles para trabajos que requieren cortes precisos y finos.
+                          Son comúnmente utilizadas en motosierras eléctricas y son ideales para cualquier trabajo que
+                          necesite precisión.
+                        </p>
+                      </div>
+                      <div class="store-overlay">
+                        <a href="./ASSETS/HTML/categoria3.html" class="btn btn-primary rounded-pill py-2 px-4 m-2">
+                          ver más
+                          <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#categories-carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#categories-carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+
+    <!-- HIGHLIGHTED PRODUCTS END -->
+
+    <!-- ABOUT BEGIN -->
+
+    <section class="page-section mb-5" id="about">
+      <div class="container px-lg-5">
+
+        <div class="row">
+          <div class="col-12 text-center mb-4">
+            <h2 class="section-heading text-uppercase">Sobre nosotros</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+            <div class="row">
+              <div class="col-6 text-end">
+                <img class="img-fluid bg-white w-100 mb-3" src="./ASSETS/MEDIA/IMGs/leñador2.jpg" alt="">
+                <img class="img-fluid bg-white w-50" src="./ASSETS/MEDIA/IMGs/leñador5.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid bg-white w-50 mb-3" src="./ASSETS/MEDIA/IMGs/leñador3.jpg" alt="">
+                <img class="img-fluid bg-white w-100" src="./ASSETS/MEDIA/IMGs/leñador1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="section-title mb-3">
+              <h3 class="text-center">¿Quienes somos?</h3>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-12">
+                <p>
+                  <span class="text-primary fw-bold">cadenaMaestra.com</span> es un equipo de expertos en la industria
+                  forestal dedicados a proporcionar las cadenas de motosierra más duraderas y confiables.
+                </p>
+                <p class="mb-0">
+                  Nuestra historia comienza con la visión de mejorar
+                  la eficiencia y seguridad en el uso de motosierras. Nos guían valores como la calidad, la
+                  transparencia y la integridad, y estamos
+                  comprometidos con prácticas comerciales sostenibles.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <h5>¿Nuestro compromiso?</h5>
+                <ul>
+                  <li class="mb-2">Ofrecer cadenas de alta calidad, sometidas a rigurosas pruebas</li>
+                  <li class="mb-2">Fomentar la confianza a través de la transparencia y la integridad</li>
+                  <li class="mb-2">Contribuir a la preservación del medio ambiente con prácticas sostenibles</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT END -->
+
+    <!-- REASONS SECTION BEGIN -->
+
+    <section class="page-section mb-3" id="reasons-section">
+      <div class="container-fluid px-lg-5">
+        <div class="text-center mb-4">
+          <h2 class="section-heading text-uppercase">Por qué elegir <span class="text-primary">Cadena Maestra</span>
+          </h2>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12 col-md-4 reason mb-3 d-flex flex-column align-items-center">
+            <img class="img-fluid" src="./ASSETS/MEDIA/IMGs/motosierra1.png" alt="Reasons 1">
+            <h4 class="mt-3 mb-2">Máximo <span class="text-primary">Rendimiento</span></h4>
+            <p>Nuestras cadenas han sido diseñadas para ofrecer el máximo rendimiento. Desde la
+              resistencia en trabajos intensivos hasta la eficiencia en tareas cotidianas, nuestras cadenas aseguran que
+              obtengas la máxima potencia en cada uso.</p>
+          </div>
+
+          <div class="col-12 col-md-4 reason mb-3 d-flex flex-column align-items-center">
+            <img class="img-fluid" src="./ASSETS/MEDIA/IMGs/motosierra2.png" alt="Reasons 2">
+            <h4 class="mt-3 mb-2"><span class="text-primary">Calidad</span> Asegurada</h4>
+            <p>Nuestras cadenas están fabricadas con materiales de primera calidad, garantizando un
+              rendimiento óptimo y
+              duradero en cada corte.</p>
+          </div>
+
+          <div class="col-12 col-md-4 reason mb-3 d-flex flex-column align-items-center">
+            <img class="img-fluid" src="./ASSETS/MEDIA/IMGs/motosierra3.png" alt="Reasons 3">
+            <h4 class="mt-3 mb-2">Todas las <span class="text-primary">Garantías</span></h4>
+            <p>En cadenaMaestra nos comprometemos a respaldar todos nuestros productos con garantías
+              integrales de calidad, durabilidad y rendimiento. Tu satisfacción es nuestra prioridad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REASONS SECTION END -->
+
+  </main>
+
+  <!-- MAIN CONTENT END-->
+
+  <footer id="footer">
+    <div class="container-fluid bg-dark py-5">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-12 col-md-4 mb-5 footer-section">
+            <h4 class="mb-4 text-primary">¿Dónde estamos?</h4>
+            <p class="mb-3">
+              <i class="bi bi-geo-alt-fill text-primary"></i>
+              Calle Grande nº 61. 29327, Teba (Málaga)
+            </p>
+            <p class="mb-3">
+              <i class="bi bi-telephone-fill text-primary"></i>
+              +34 626 10 08 33
+            </p>
+            <p class="mb-3">
+              <i class="bi bi-envelope-fill text-primary"></i>
+              cadenaMaestra@info.com
+            </p>
+
+            <div class="d-flex pt-3">
+              <a class="btn btn-square btn-primary rounded-circle me-2" href="">
+                <i class="bi bi-twitter text-light"></i>
+              </a>
+              <a class="btn btn-square btn-primary rounded-circle me-2" href="">
+                <i class="bi bi-facebook text-white"></i>
+              </a>
+              <a class="btn btn-square btn-primary rounded-circle me-2" href="">
+                <i class="bi bi-youtube text-white"></i>
+              </a>
+              <a class="btn btn-square btn-primary rounded-circle me-2" href="">
+                <i class="bi bi-linkedin text-white"></i>
+              </a>
+            </div>
+          </div> 
+
+          <div class="col-12 col-md-4 mb-5 footer-section">
+            <h4 class="mb-4 text-primary">Menú</h4>
+            <div>
+              <ul class="navbar-nav text-uppercase">
+                <li class="nav-item">
+                  <a href="./index.html" class="nav-link text-primary  fw-bold text-white text-start"
+                    aria-current="page">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./ASSETS/HTML/categories.html" class="nav-link text-white text-start">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./ASSETS/HTML/about.html" class="nav-link text-white text-start">Conócenos</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./ASSETS/HTML/contact.html" class="nav-link text-white text-start">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-5 footer-section">
+            <h4 class="mb-2 text-primary">Suscríbete a nuestra newsletter</h4>
+            <p>Recibirás promociones y descuentos exclusivos para clientes. ¡No dejes escapar las ventajas de ser parte de nuestra comunidad!</p>
+            <div class="newsletter-form-container">
+              <form class="newsletter-form">
+                <input type="text" name="firstname" placeholder="Nombre">
+                <input type="email" name="email" placeholder="Email">
+                <div class="email-authorization-container mb-3">
+                  <input type="checkbox" name="email-authorization">
+                  <label for="email-authorization">Quiero recibir correos con noticias y ofertas exclusivas</label>
+                </div>
+                <button class="btn btn-primary"><i class="bi bi-envelope"></i> Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center mb-3 mb-md-0">
+            <p class="mb-1">
+              © <span class="text-primary" href="#">cadenaMaestra.com</span>
+            </p>
+            <p class="text-center mb-0">Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</body>
+
+</html>
